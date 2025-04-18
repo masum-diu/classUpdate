@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gray;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.search-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbox {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 22px;
+}
+input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.movie-card {
+  width: 100%;
+  max-width: 200px;
+  background-color: white;
+  border-radius: 5px;
+}
+.movie-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.movie-card h3 {
+  font-size: 16px;
+  padding-left: 8px;
+}
+.movie-card p {
+  font-size: 14px;
+  padding-left: 8px;
+}
+
+/* mobile size: 320px */
+/* tablet size: 650px-750px */
+/* laptop size: 1024px - 1440px */
+/* desktop size: 1440px - 1920px */
+/* large desktop size: 1920px and above */
