@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventListener</title>
+  </head>
+  <body>
+    <h1 id="h1textchange">Add EventListener</h1>
+    <button id="btn">Click Me</button>
+  </body>
+  <script>
+    const btn = document.getElementById("btn");
+    // console.log(btn);
+    btn.addEventListener("click", function () {
+      //   const h1 = document.getElementById("h1textchange");
+      //   h1.textContent = "DOM fully loaded and parsed";
+      //   h1.style.color = "red";
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log("DOM fully loaded and parsed");
+      const h1 = document.getElementById("h1textchange");
+      h1.textContent = "DOM fully loaded and parsed";
+      h1.style.color = "red";
+    });
+  </script>
+</html>
