@@ -27,3 +27,6 @@ if (null === null) {
 } else {
   console.log("false");
 }
+var x = 10;
+var y = 20;
+console.log(x + y);
