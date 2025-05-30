@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="Ten" onclick="appnd('10')">10</button>
+  </body>
+  <script>
+    function appnd(value) {
+      console.log(value);
+    }
+    const TenValue = document.getElementById("Ten");
+    // if (TenValue === 10) {
+    // }
+
+    if (TenValue === 10) {
+      const result = TenValue.append("12");
+      console.log(result); // Appends "12" after "10", result: "1012"
+    }
+  </script>
+</html>
